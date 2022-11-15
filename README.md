@@ -23,5 +23,5 @@
 ![image](https://user-images.githubusercontent.com/86298695/191632388-296004e4-f208-4627-bac5-609336a5efb4.png)
 
 *Обозреватель проекта Visual Studio*
-![Снимок](https://user-images.githubusercontent.com/86298695/200586242-f0718e48-41c1-4259-932f-8b2e60ac2222.PNG)
+![image](https://user-images.githubusercontent.com/86298695/201949436-225a421a-21a4-44c1-a7ed-293d5f849737.png)
 
