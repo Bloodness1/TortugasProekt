@@ -1,0 +1,67 @@
+﻿<Window x:Class="TortugasProekt.Windows.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugasProekt.Windows"
+        mc:Ignorable="d"
+        Title="Window7" Height="744" 
+        Width="477">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Image
+            Source="\Image\14.png"
+            />
+
+        <Button x:Name="btngar"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="49,272,249,327" 
+                />
+
+        <Button x:Name="btnfarnir"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="240,428,58,171" 
+                />
+
+        <Button x:Name="btnnir"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="49,428,249,171" 
+                />
+
+        <Button x:Name="btnbrok"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="240,272,58,327" 
+                />
+
+        <Button x:Name="btn"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="240,153,58,460" 
+                />
+
+        <Button x:Name="btns"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="49,153,249,460" 
+                />
+
+        <Button x:Name="btnnazad"
+            Background="Transparent"
+            Foreground="White"
+            Content="←"
+            FontSize="50"
+            Click="btnnazad_Click" 
+            BorderBrush="Transparent" 
+            Margin="5,-16,417,689" 
+                />
+
+    </Grid>
+</Window>

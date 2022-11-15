@@ -1,0 +1,274 @@
+﻿<Window x:Class="TortugasProekt.Windows.Window12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugasProekt.Windows"
+        mc:Ignorable="d"
+        Title="Window12" Height="744" 
+        Width="477">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border
+         Grid.RowSpan="5"
+         Grid.ColumnSpan="2">
+            <Image x:Name="Korzina"
+         Source="\Image\4.png"
+         Stretch="Fill"/>
+        </Border>
+
+        <TextBlock 
+         x:Name="Name"
+         Text="Корзина"
+         HorizontalAlignment="Left"
+         VerticalAlignment="Top"
+         FontSize="30"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Width="150" 
+         Margin="10,9,0,0" 
+         Grid.Row="0"
+            />
+
+        <Image x:Name="strelka"
+         Source="\Image\Line 1.png" 
+               Margin="0,87,0,55" 
+               Grid.RowSpan="2" 
+               Grid.ColumnSpan="2"
+         />
+        <Image x:Name="strelkaq"
+         Source="\Image\Line 1.png" 
+               Margin="0,58,0,83" 
+               Grid.RowSpan="2" 
+               Grid.ColumnSpan="2" 
+               Grid.Row="1"
+         />
+        <Image x:Name="strelkaw"
+         Source="\Image\Line 1.png" 
+               Margin="0,48,0,93" 
+               Grid.RowSpan="2" 
+               Grid.ColumnSpan="2" 
+               Grid.Row="2"
+         />
+        <Image x:Name="strelkae"
+         Source="\Image\Line 1.png" 
+               Margin="0,22,0,120" 
+               Grid.RowSpan="2" 
+               Grid.ColumnSpan="2"
+         />
+        <Image x:Name="strelkat"
+         Source="\Image\Line 2.png" 
+               Grid.ColumnSpan="2" 
+               Margin="185,15,48,86" 
+               Grid.RowSpan="3" 
+               Grid.Row="1" 
+         />
+        <Image x:Name="paypal"
+         Source="\Image\21.jpg" 
+               Margin="13,1,124,89" 
+               Grid.Row="3" 
+         />
+
+        <TextBlock
+         x:Name="Paypals"
+         Text="PayPal"
+         HorizontalAlignment="Left"
+         VerticalAlignment="Top"
+         FontSize="28"
+         Foreground="White"
+         FontFamily="Arial"
+         Grid.Row="3" Margin="85,58,0,0" FontStyle="Italic"
+            />
+
+        <Button x:Name="btnnazad"
+         Background="Transparent"
+         Foreground="White"
+         Content="← Меню"
+         Grid.Column="1"
+         FontSize="25" 
+         FontFamily="Yu Gothic UI Light" 
+         Click="btnnazad_Click" 
+         Margin="36,6,9,103"
+            />
+
+        <TextBlock 
+         x:Name="Dish"
+         Text="Блюдо/Напиток:"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Center"
+         FontSize="28"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Width="225"
+         Grid.Row="0" 
+         Margin="10,139,0,0"
+            />
+
+        <TextBlock 
+         x:Name="Cost"
+         Text="Цена:"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Center"
+         FontSize="28"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Width="82"
+         Grid.Row="0"
+         Grid.Column="1" 
+         Margin="116,142,37,178" 
+         Grid.RowSpan="2"
+         
+            />
+
+        <Image x:Name="product"
+         Source="\Image\19.png" 
+               Margin="10,34,98,25" 
+               Grid.Row="1" 
+               
+               />
+        <Image x:Name="products"
+         Source="\Image\20.png" 
+               Margin="10,10,98,44" 
+               Grid.Row="2" 
+               />
+
+        <TextBlock 
+         x:Name="names"
+         FontSize="23"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="1" 
+         Margin="166,61,192,38" 
+         Grid.ColumnSpan="2"
+         ><Run Text="Крем-суп "/>
+         <LineBreak/>
+         <Run Text="из тыквы"/>
+        </TextBlock>
+
+        <TextBlock 
+         x:Name="titl"
+         FontSize="23"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="2" 
+         Margin="160,47,172,51" 
+         Grid.ColumnSpan="2"
+         ><Run Text="Лимонад"/>
+         <LineBreak/><Run 
+         Text="манго-юдзу"/>
+        </TextBlock>
+
+        <TextBlock
+         x:Name="costs"
+         Text="520.00 ₽"
+         FontSize="23"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="1" 
+         Grid.Column="1" 
+         Margin="111,78,26,62" 
+         />
+
+        <TextBlock
+         x:Name="costses"
+         Text="270.00 ₽"
+         FontSize="23"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="2" 
+         Grid.Column="1" 
+         Margin="108,56,29,83" 
+         />
+
+        <TextBlock
+         x:Name="number"
+         Text="790.00 ₽"
+         FontSize="25"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="2" 
+         Grid.Column="1" 
+         Margin="108,176,29,142" 
+         Grid.RowSpan="2" 
+         />
+
+        <TextBlock
+         x:Name="procent"
+         Text="0 %"
+         FontSize="25"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="3" 
+         Grid.Column="1" 
+         Margin="133,47,48,92" 
+         />
+
+        <TextBlock
+         x:Name="qqq"
+         Text="790.00 ₽"
+         FontSize="23"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="3" 
+         Grid.Column="1" 
+         Margin="106,123,33,20" 
+         />
+
+        <TextBlock
+         x:Name="www"
+         Text="Итого:"
+         FontSize="23"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="3" 
+         Margin="225,122,172,17" 
+         Grid.ColumnSpan="2" 
+         />
+
+        <TextBlock
+         x:Name="skidka"
+         Text="Скидка"
+         FontSize="25"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="3" 
+         Margin="216,43,157,96" 
+         Grid.ColumnSpan="2" 
+         />
+
+        <TextBlock
+         x:Name="summa"
+         Text="Сумма"
+         FontSize="25"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light"
+         Grid.Row="2" 
+         Margin="216,177,157,141" 
+         Grid.ColumnSpan="2" 
+         Grid.RowSpan="2" 
+         />
+
+        <Button x:Name="btnoplata"
+         Background="Transparent"
+         Foreground="White"
+         Content="Подтвердить"
+         FontSize="20" 
+         FontFamily="Yu Gothic UI Light" 
+         Click="btnoplata_Click" 
+         Margin="35,118,59,11" 
+         Grid.Row="3"
+         />
+    </Grid>
+</Window>

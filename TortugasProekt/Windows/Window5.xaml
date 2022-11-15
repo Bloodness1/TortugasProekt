@@ -1,0 +1,67 @@
+﻿<Window x:Class="TortugasProekt.Windows.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugasProekt.Windows"
+        mc:Ignorable="d"
+        Title="Window5" Height="744" 
+        Width="477">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Image
+            Source="\Image\12.png"
+            />
+
+        <Button x:Name="btnsypi"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="33,377,287,234" 
+                />
+
+        <Button x:Name="btnkrems"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="198,377,147,201" 
+                />
+
+        <Button x:Name="btnkremsyp"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="334,377,10,233" 
+                />
+
+        <Button x:Name="btnsyps"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="10,535,308,75" 
+                />
+
+        <Button x:Name="btnpelmeni"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="187,535,140,39" 
+                />
+
+        <Button x:Name="btnmoreproducts"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="340,535,10,75" 
+                />
+
+        <Button x:Name="btnnazad"
+            Background="Transparent"
+            Foreground="White"
+            Content="←"
+            FontSize="50"
+            Click="btnnazad_Click" 
+            BorderBrush="Transparent" 
+            Margin="5,-16,417,689" 
+                />
+
+    </Grid>
+</Window>

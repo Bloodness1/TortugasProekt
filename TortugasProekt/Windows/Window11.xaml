@@ -1,0 +1,43 @@
+﻿<Window x:Class="TortugasProekt.Windows.Window11"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugasProekt.Windows"
+        mc:Ignorable="d"
+        Title="Window11" Height="744" 
+        Width="477">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Image
+            Source="\Image\18.png"
+            />
+
+        <Button x:Name="btnnapitki"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="21,190,242,434" Click="btnnapitki_Click"
+                />
+
+        <Button x:Name="btnnapinkis"
+         Background="Transparent"
+         Foreground="White" 
+         Margin="21,393,242,231" Click="btnnapinkis_Click"
+                />
+
+        <Button x:Name="btnnazad"
+            Background="Transparent"
+            Foreground="White"
+            Content="←"
+            FontSize="50"
+            Click="btnnazad_Click" 
+            BorderBrush="Transparent" 
+            Margin="5,-16,417,689" 
+                />
+
+    </Grid>
+</Window>

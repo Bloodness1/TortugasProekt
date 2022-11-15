@@ -1,0 +1,53 @@
+﻿<Window x:Class="TortugasProekt.Windows.Window13"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TortugasProekt.Windows"
+        mc:Ignorable="d"
+        Title="Window13" Height="744" 
+        Width="477">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="end"
+         Source="\Image\22.png" 
+         Margin="0,0,-3,-1" 
+               />
+        <Button x:Name="btnexit"
+         Background="Transparent"
+         Foreground="White"
+         Content="Вернуться в главное меню"
+         FontSize="20" 
+         FontFamily="Yu Gothic UI Light" 
+         Click="btnexit_Click" 
+         Margin="103,506,87,169"
+         />
+
+        <TextBlock x:Name="thankyou"
+         HorizontalAlignment="Left"
+         VerticalAlignment="Top"
+         FontSize="20"
+         Foreground="White"
+         FontFamily="Yu Gothic UI Light" 
+         Width="475" 
+         Height="175" 
+         Margin="5,224,0,0"><Run Text="                                   
+Спасибо"/><LineBreak/><Run Text="                              за то, что стали"/><LineBreak/><Run Text="  
+                         частью нашего дня!"/><LineBreak/><Run/><LineBreak/><Run Text="                               С любовью, "/><LineBreak/><Run Text="                                  Tortuga`s."/></TextBlock>
+
+        <Button x:Name="btnnazad"
+            Background="Transparent"
+            Foreground="White"
+            Content="←"
+            FontSize="50"
+            Click="btnnazad_Click" 
+            BorderBrush="Transparent" 
+            Margin="5,-16,417,689" 
+                />
+
+    </Grid>
+</Window>
