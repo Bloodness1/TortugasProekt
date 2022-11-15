@@ -27,6 +27,7 @@
             <Image x:Name="tortugas"
              Source="\Image\2.png"
              Stretch="Fill"/>
+            
         </Border>
 
         <Button x:Name="btnnazad"
