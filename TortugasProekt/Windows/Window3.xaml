@@ -29,6 +29,17 @@
              Stretch="Fill"/>
         </Border>
 
+        <Button x:Name="btnnazad"
+            Background="Transparent"
+            Foreground="White"
+            Content="←"
+            FontSize="40"
+            Click="btnnazad_Click" 
+            BorderBrush="Transparent" 
+            Margin="0,0,184,128" 
+             
+                />
+
         <TextBlock x:Name="Titles"
          Text="КАТЕГОРИИ"
          HorizontalAlignment="Center"

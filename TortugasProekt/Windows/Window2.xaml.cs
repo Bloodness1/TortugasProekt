@@ -30,5 +30,12 @@ namespace TortugasProekt.Windows
             window3.Show();
             this.Close();
         }
+
+        private void btnnazad_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            this.Close();
+        }
     }
 }

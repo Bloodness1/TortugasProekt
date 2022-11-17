@@ -24,5 +24,15 @@
          Click="btnmenu_Click"
                 />
 
+        <Button x:Name="btnnazad"
+            Background="Transparent"
+            Foreground="White"
+            Content="←"
+            FontSize="40"
+            Click="btnnazad_Click" 
+            BorderBrush="Transparent" 
+            Margin="0,-1,417,649" 
+                />
+
     </Grid>
 </Window>

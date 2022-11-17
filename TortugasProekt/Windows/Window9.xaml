@@ -69,10 +69,10 @@
             Background="Transparent"
             Foreground="White"
             Content="←"
-            FontSize="50"
+            FontSize="40"
             Click="btnnazad_Click" 
             BorderBrush="Transparent" 
-            Margin="5,-16,417,689" 
+            Margin="0,4,407,664" 
                 />
 
     </Grid>

@@ -34,10 +34,10 @@
             Background="Transparent"
             Foreground="White"
             Content="←"
-            FontSize="50"
+            FontSize="40"
             Click="btnnazad_Click" 
             BorderBrush="Transparent" 
-            Margin="0,-16,174,108" 
+            Margin="0,-1,194,102" 
            
                 />
 
